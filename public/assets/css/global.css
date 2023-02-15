@@ -2098,13 +2098,7 @@ body.light-skin .header.sticky .navbar.default:before {
 	height: 918px;
 }
 
-.hero-started .slide img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.hero-started .slide > span {
 	border-radius: 380px;
 	-webkit-border-radius: 380px;
 	z-index: 10;
