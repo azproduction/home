@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Mikhail Davydov"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://azproduction.me/"/>
-        <meta property="og:image" content="https://www.gravatar.com/avatar/3298d6e26223d78fc523fa98a86c8ffc?s=300"/>
+        <meta property="og:image" content="https://www.gravatar.com/avatar/3298d6e26223d78fc523fa98a86c8ffc?s=300&r=g"/>
         <meta property="og:image:type" content="image/jpeg"/>
         <meta property="og:image:width" content="300"/>
         <meta property="og:image:height" content="300"/>
