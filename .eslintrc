@@ -1,0 +1,119 @@
+{
+  "extends": ["eslint:recommended", "prettier", "react-app", "plugin:react/recommended", "plugin:@next/next/recommended"],
+  "plugins": ["prettier", "import", "unused-imports", "deprecation", "react", "filenames"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+    "es2020": true
+  },
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "eqeqeq": ["error", "always"],
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/no-useless-path-segments": "error",
+    "no-irregular-whitespace": "off",
+    "no-nested-ternary": "error",
+    "no-restricted-globals": ["error", "name", "toString", "pending"],
+    "object-shorthand": ["error", "properties"],
+    "prefer-template": "error",
+    "prettier/prettier": ["error", {"singleQuote": true}],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "props": "never",
+        "children": "never"
+      }
+    ],
+    "react/jsx-boolean-value": ["error", "never", {"always": ["value"]}],
+    "react/jsx-key": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-pascal-case": "error",
+    "react-hooks/exhaustive-deps": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  },
+  "ignorePatterns": ["!.*"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "overrides": [
+    {
+      "files": ["*.{ts,tsx}"],
+      "extends": ["plugin:@typescript-eslint/recommended"],
+      "rules": {
+        "@typescript-eslint/ban-types": ["error", {"extendDefaults": true, "types": {"{}": false}}],
+        "@typescript-eslint/camelcase": "off",
+        "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "no-type-imports"}],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {"selector": "default", "format": ["strictCamelCase"]},
+          {"selector": "variable", "format": ["strictCamelCase", "StrictPascalCase"]},
+          {"selector": "parameter", "format": ["strictCamelCase", "StrictPascalCase"], "leadingUnderscore": "allow"},
+          {"selector": "function", "format": ["strictCamelCase", "StrictPascalCase"]},
+          {"selector": "class", "format": ["StrictPascalCase"]},
+          {"selector": "interface", "format": ["StrictPascalCase"]},
+          {"selector": "typeAlias", "format": ["StrictPascalCase"]},
+          {"selector": "typeParameter", "format": ["StrictPascalCase"], "prefix": ["T"]},
+          {"selector": "enum", "format": ["StrictPascalCase"]},
+          {"selector": "enumMember", "format": ["StrictPascalCase"]},
+          {"selector": "property", "format": null},
+          {
+            "selector": "typeProperty",
+            "format": ["strictCamelCase", "StrictPascalCase"],
+            "filter": {"regex": "^(aria-|data-)[a-z|\\-]+$", "match": false}
+          },
+          {
+            "selector": "objectLiteralProperty",
+            "format": ["strictCamelCase", "StrictPascalCase"],
+            "filter": {"regex": "^\\d+|^(aria-|data-)[a-z|\\-]+$", "match": false}
+          },
+          {
+            "selector": "classProperty",
+            "format": ["strictCamelCase", "StrictPascalCase"]
+          },
+          {
+            "selector": "method",
+            "format": ["strictCamelCase"],
+            "leadingUnderscore": "require",
+            "filter": {"regex": "^_next$", "match": true}
+          },
+          {"selector": "method", "format": ["strictCamelCase"]}
+        ],
+        "@typescript-eslint/no-empty-interface": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-unsafe-call": "error",
+        "@typescript-eslint/no-unsafe-member-access": "error",
+        "@typescript-eslint/no-unsafe-argument": "error",
+        "@typescript-eslint/no-unsafe-assignment": "error",
+        "@typescript-eslint/no-for-in-array": "error",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-redeclare": "error",
+        "@typescript-eslint/no-unused-expressions": "error",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {"args": "after-used", "argsIgnorePattern": "^_", "ignoreRestSiblings": true, "vars": "all"}
+        ],
+        "@typescript-eslint/no-use-before-define": ["error", {"classes": false, "functions": false}],
+        "@typescript-eslint/prefer-for-of": "error",
+        "@typescript-eslint/prefer-nullish-coalescing": "error",
+        "@typescript-eslint/switch-exhaustiveness-check": "error",
+        "deprecation/deprecation": "error",
+        "unused-imports/no-unused-imports-ts": "error"
+      }
+    }
+  ]
+}
