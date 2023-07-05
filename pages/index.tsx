@@ -146,7 +146,8 @@ const Index = () => (
                         <div className='text'>
                             <p>
                                 Passioned full-stack JavaScript developer with {new Date().getFullYear() - 2006}+ years
-                                of experience, seeking for new challenges as a Principal JavaScript/Full-Stack Developer.
+                                of experience, seeking for new challenges as a Principal JavaScript/Full-Stack
+                                Developer.
                             </p>
                             <p>
                                 Developer and promoter of modern technologies and standards. Being among strongest
