@@ -353,7 +353,7 @@ const Index = () => (
                                     <div className='date'>Feb 2021 - Present</div>
                                     <div className='name'>ARRIVAL Germany</div>
                                     <div className='subname'>
-                                        Senior Frontend Developer, de-facto Full-Stack Developer
+                                        Principal Frontend Developer, de-facto -Full-Stack Developer
                                     </div>
                                     <div className='text'>
                                         <p>
