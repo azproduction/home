@@ -5,10 +5,13 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>Mikhail Davydov &mdash; Fullstack TypeScript/Node.js developer</title>
+                <title>Mikhail Davydov &mdash; Principal Frontend Engineer</title>
                 <meta name='format-detection' content='telephone=no' />
                 <meta name='description' content='Mikhail Davydov &mdash; Fullstack TypeScript/Node.js developer' />
-                <meta name='keywords' content='mikhail davydov, developer, javascript, typescriot, react, nodejs' />
+                <meta
+                    name='keywords'
+                    content='mikhail davydov, principal engineer, javascript, typescriot, react, nodejs'
+                />
                 <meta property='og:title' content='Mikhail Davydov' />
                 <meta property='og:type' content='website' />
                 <meta property='og:url' content='https://azproduction.me/' />
@@ -20,7 +23,7 @@ export default function Document() {
                 <meta property='og:image:width' content='300' />
                 <meta property='og:image:height' content='300' />
                 <meta property='og:image:alt' content='Mikhail Davydov' />
-                <meta property='og:description' content='Fullstack JavaScript/TypeScript developer based in Berlin' />
+                <meta property='og:description' content='Principal Frontend Engineer based in Berlin' />
                 <Script src='https://www.googletagmanager.com/gtag/js?id=UA-68597572-2' strategy='afterInteractive' />
                 <Script id='google-analytics' strategy='afterInteractive'>
                     {`window.dataLayer = window.dataLayer || [];function gtag(){window.dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-68597572-2');`}

@@ -12,13 +12,13 @@ const Index = () => (
                     <ProfilePicture />
                     <div className='content'>
                         <div className='titles'>
-                            <div className='subtitle'>JS/TS Developer</div>
+                            <div className='subtitle'>Principal FE Engineer</div>
                             <h2 className='title'>Misha Davydov</h2>
                         </div>
                         <div className='description'>
                             <p>
-                                I am Fullstack JS/TS developer based in Berlin. My primary focus are React, Node.js,
-                                GraphQL web&nbsp;applications
+                                Principal Frontend Engineer based in Berlin. Frontend centric GraphQL APIs and brilliant
+                                React, Node.js applications are my domain
                             </p>
                             <div className='social-links'>
                                 <SocialLinks />
@@ -106,14 +106,15 @@ const Index = () => (
                         <div className='profile-box'>
                             <div className='text'>
                                 <p>
-                                    My name is Mikhail Davydov. I am a full-stack JavaScript developer. My passion are
-                                    brilliant web-interfaces, which are loved. With primary focus on React, Node.js,
-                                    GraphQL web&nbsp;applications.
+                                    My name is Mikhail Davydov. I am a Principal Frontend Engineer. My passion are
+                                    brilliant web-interfaces loved by customers. Frontend-centric APIs, which make
+                                    frontend engineers happy and productive. My primary tech stack is TypeScript, React,
+                                    Node.js and GraphQL.
                                 </p>
                                 <p>
                                     In 2014 I moved to Germany and started a new chapter in my developer career. As of
-                                    today I worked at 3 international startup companies as de-facto full-stack
-                                    JavaScript/Tech Lead.
+                                    today I worked at 3 international startup companies as full-stack JavaScript/Tech
+                                    Lead and recently transitioned into Principal Frontend Engineer role.
                                 </p>
                                 <p>
                                     I have a solid public speaker experience with more than 10 talks at big Russian and
@@ -145,14 +146,14 @@ const Index = () => (
                         {/* Description */}
                         <div className='text'>
                             <p>
-                                Passioned full-stack JavaScript developer with {new Date().getFullYear() - 2006}+ years
-                                of experience, seeking for new challenges as a Principal JavaScript/Full-Stack
-                                Developer.
+                                JavaScript and Node.js expert. Principal Frontend Engineer building high-performance,
+                                scalable and maintainable web-services for over {new Date().getFullYear() - 2006} years.
+                                Public speaker and JavaScript tutor. Developer and promoter of modern technologies and
+                                approaches.
                             </p>
                             <p>
-                                Developer and promoter of modern technologies and standards. Being among strongest
-                                developers in companies I worked in, I was participating in key architectural decisions,
-                                team building and mentoring activities.
+                                Being among strongest engineer in companies I worked in, I was participating in key
+                                architectural decisions, team building and mentoring activities.
                             </p>
                             <p>
                                 It does not matter if I start a project from a scratch or work on existing one – it will
@@ -255,12 +256,58 @@ const Index = () => (
                                     </div>
                                 </div>
                             </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            xmlSpace='preserve'
+                                            viewBox='0 0 400 400'
+                                            width='64'>
+                                            <path
+                                                fill='#E535AB'
+                                                d='m57.468 302.66-14.376-8.3 160.15-277.38 14.376 8.3z'
+                                            />
+                                            <path fill='#E535AB' d='M39.8 272.2h320.3v16.6H39.8z' />
+                                            <path
+                                                fill='#E535AB'
+                                                d='m206.348 374.026-160.21-92.5 8.3-14.376 160.21 92.5zM345.522 132.947l-160.21-92.5 8.3-14.376 160.21 92.5z'
+                                            />
+                                            <path
+                                                fill='#E535AB'
+                                                d='m54.482 132.883-8.3-14.375 160.21-92.5 8.3 14.375z'
+                                            />
+                                            <path
+                                                fill='#E535AB'
+                                                d='m342.568 302.663-160.15-277.38 14.376-8.3 160.15 277.38zM52.5 107.5h16.6v185H52.5z'
+                                            />
+                                            <path fill='#E535AB' d='M330.9 107.5h16.6v185h-16.6z' />
+                                            <path
+                                                fill='#E535AB'
+                                                d='m203.522 367-7.25-12.558 139.34-80.45 7.25 12.557z'
+                                            />
+                                            <path
+                                                fill='#E535AB'
+                                                d='M369.5 297.9c-9.6 16.7-31 22.4-47.7 12.8-16.7-9.6-22.4-31-12.8-47.7 9.6-16.7 31-22.4 47.7-12.8 16.8 9.7 22.5 31 12.8 47.7M90.9 137c-9.6 16.7-31 22.4-47.7 12.8-16.7-9.6-22.4-31-12.8-47.7 9.6-16.7 31-22.4 47.7-12.8 16.7 9.7 22.4 31 12.8 47.7M30.5 297.9c-9.6-16.7-3.9-38 12.8-47.7 16.7-9.6 38-3.9 47.7 12.8 9.6 16.7 3.9 38-12.8 47.7-16.8 9.6-38.1 3.9-47.7-12.8M309.1 137c-9.6-16.7-3.9-38 12.8-47.7 16.7-9.6 38-3.9 47.7 12.8 9.6 16.7 3.9 38-12.8 47.7-16.7 9.6-38.1 3.9-47.7-12.8M200 395.8c-19.3 0-34.9-15.6-34.9-34.9 0-19.3 15.6-34.9 34.9-34.9 19.3 0 34.9 15.6 34.9 34.9 0 19.2-15.6 34.9-34.9 34.9M200 74c-19.3 0-34.9-15.6-34.9-34.9 0-19.3 15.6-34.9 34.9-34.9 19.3 0 34.9 15.6 34.9 34.9 0 19.3-15.6 34.9-34.9 34.9'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>GraphQL</div>
+                                    <div className='text'>
+                                        <p>
+                                            Expert knowledge of client centric services based on GraphQL with Apollo
+                                            Federation. Apollo toolchain. 4+ Years of integration experience in multiple
+                                            companies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className='services-item'>
                             <div className='title'>I work every day with</div>
                             <div>
                                 React, React Routing, Webpack, Nodejs, GraphQL, Apollo, Jest, Typescript, Git, Webstorm,
-                                Npm
+                                Npm and of course wonderful people
                             </div>
                         </div>
                         <div className='services-item'>
@@ -273,7 +320,7 @@ const Index = () => (
                         </div>
                         <div className='services-item'>
                             <div className='title'>Willing to learn</div>
-                            <div>Rust, Go, Kotlin</div>
+                            <div>Rust, Golang, Kotlin</div>
                         </div>
                         <div className='skills-items'>
                             <div className='p-title'>LANGUAGES</div>
@@ -354,7 +401,7 @@ const Index = () => (
                                     <div className='date'>Feb 2021 - Present</div>
                                     <div className='name'>ARRIVAL Germany</div>
                                     <div className='subname'>
-                                        Principal Frontend Developer, de-facto -Full-Stack Developer
+                                        Principal Frontend Engineer, de-facto -Full-Stack Engineer
                                     </div>
                                     <div className='text'>
                                         <p>
