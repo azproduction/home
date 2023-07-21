@@ -400,9 +400,7 @@ const Index = () => (
                                 <div className='history-item'>
                                     <div className='date'>Feb 2021 - Present</div>
                                     <div className='name'>ARRIVAL Germany</div>
-                                    <div className='subname'>
-                                        Principal Frontend Engineer, de-facto -Full-Stack Engineer
-                                    </div>
+                                    <div className='subname'>Principal Frontend Engineer</div>
                                     <div className='text'>
                                         <p>
                                             Architecture and development of projects for ARRIVAL factories,
