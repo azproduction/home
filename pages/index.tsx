@@ -475,7 +475,7 @@ const Index = () => (
                                     <div className='text'>
                                         <p>
                                             Led a team of 5 to design and deploy a high-performance React Native mobile
-                                            application for Portal. Managed the full development cycle—from production
+                                            application. Managed the full development cycle—from production
                                             to deployment—while driving the company-wide GraphQL initiative. Tech: React
                                             Native, TypeScript, GraphQL, Node.js
                                         </p>
