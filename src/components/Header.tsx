@@ -1,20 +1,28 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useLayoutEffect, useState} from 'react';
+
+const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 export const Header = () => {
     const [day, setDay] = useState(true);
+
+    useIsomorphicLayoutEffect(() => {
+        const mood = localStorage.getItem('ober-mood') === 'day' ? 'day' : 'night';
+        setDay(mood === 'day');
+    }, []);
+
     useEffect(() => {
-        const mood = localStorage.getItem('ober-mood');
-        localStorage.setItem('ober-mood', mood !== null ? 'night' : 'day');
         const body = document.querySelector('body') as HTMLElement | null;
 
         if (day) {
             localStorage.setItem('ober-mood', 'day');
             body?.classList.add('home', 'page', 'light-skin');
+            setDay(true);
             return;
         }
 
         localStorage.setItem('ober-mood', 'night');
         body?.classList.remove('home', 'page', 'light-skin');
+        setDay(false);
     }, [day]);
 
     return (
