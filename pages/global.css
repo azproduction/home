@@ -1,3 +1,5 @@
+@import "./bootstrap-grid.min.css";
+
 /*
 Template Name: Ober
 Author: beshleyua
@@ -545,7 +547,7 @@ blockquote:before,
 	left: 50px;
 	width: 58px;
 	height: 44px;
-	background: url(../images/quote.svg) no-repeat;
+	background: url(../public/assets/images/quote.svg) no-repeat;
 	background-size: contain;
 }
 
@@ -671,7 +673,7 @@ select,
 
 select,
 .custom-select {
-	background: url(../images/caret-down.svg) no-repeat right 20px center/12px 12px;
+	background: url(../public/assets/images/caret-down.svg) no-repeat right 20px center/12px 12px;
 }
 
 .post-content .gallery {
@@ -938,6 +940,10 @@ hr {
 	border-radius: 0;
 }
 
+.preloader.loaded {
+    display: none;
+}
+
 .preloader.loaded:before {
 	-webkit-animation: preloader 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
 	animation: preloader 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
@@ -1154,7 +1160,7 @@ hr {
 	bottom: 0;
 	width: 411px;
 	height: 600px;
-	background: url(../images/parallax_1.svg);
+	background: url(../public/assets/images/parallax_1.svg);
 	pointer-events: none;
 }
 
@@ -1169,7 +1175,7 @@ hr {
 	bottom: -161px;
 	width: 236px;
 	height: 600px;
-	background: url(../images/parallax_1_1.svg);
+	background: url(../public/assets/images/parallax_1_1.svg);
 	pointer-events: none;
 }
 
@@ -1184,7 +1190,7 @@ hr {
 	bottom: 0;
 	width: 236px;
 	height: 600px;
-	background: url(../images/parallax_2.svg);
+	background: url(../public/assets/images/parallax_2.svg);
 	pointer-events: none;
 }
 
@@ -1199,7 +1205,7 @@ hr {
 	bottom: 41px;
 	width: 250px;
 	height: 600px;
-	background: url(../images/parallax_2_2.svg);
+	background: url(../public/assets/images/parallax_2_2.svg);
 	pointer-events: none;
 }
 
@@ -1214,7 +1220,7 @@ hr {
 	bottom: -261px;
 	width: 236px;
 	height: 600px;
-	background: url(../images/parallax_1_1.svg);
+	background: url(../public/assets/images/parallax_1_1.svg);
 	pointer-events: none;
 }
 
@@ -1229,7 +1235,7 @@ hr {
 	bottom: 0;
 	width: 236px;
 	height: 600px;
-	background: url(../images/parallax_2.svg);
+	background: url(../public/assets/images/parallax_2.svg);
 	pointer-events: none;
 }
 
@@ -1244,7 +1250,7 @@ hr {
 	bottom: 0;
 	width: 310px;
 	height: 600px;
-	background: url(../images/parallax_2_2.svg);
+	background: url(../public/assets/images/parallax_2_2.svg);
 	pointer-events: none;
 }
 
@@ -1259,7 +1265,7 @@ hr {
 	bottom: 0;
 	width: 411px;
 	height: 600px;
-	background: url(../images/parallax_1.svg);
+	background: url(../public/assets/images/parallax_1.svg);
 	pointer-events: none;
 }
 
@@ -1274,7 +1280,7 @@ hr {
 	bottom: 0;
 	width: 236px;
 	height: 600px;
-	background: url(../images/parallax_2.svg);
+	background: url(../public/assets/images/parallax_2.svg);
 	pointer-events: none;
 }
 
@@ -3339,7 +3345,7 @@ body.light-skin .header.sticky .navbar.default:before {
 	top: 50%;
 	width: 118px;
 	height: 118px;
-	background: #18181b url(../images/circle.svg) no-repeat center center;
+	background: #18181b url(../public/assets/images/circle.svg) no-repeat center center;
 	background-size: 20px 20px;
 	border: none;
 	z-index: 3;
@@ -3402,7 +3408,7 @@ body.light-skin .header.sticky .navbar.default:before {
 	top: 0;
 	width: 12px;
 	height: 20px;
-	background: url(../images/arrow.svg) no-repeat;
+	background: url(../public/assets/images/arrow.svg) no-repeat;
 	background-size: contain;
 	opacity: 0.5;
 }
@@ -3695,7 +3701,7 @@ input.search-submit,
 	top: 50%;
 	width: 16px;
 	height: 16px;
-	background: url(../images/search.svg) no-repeat center center;
+	background: url(../public/assets/images/search.svg) no-repeat center center;
 	background-size: contain;
 	font-size: 0;
 	-webkit-filter: brightness(0) invert(1);
@@ -4173,7 +4179,7 @@ h5.comment-box__details {
 
 .archive-item .sticky:before {
 	content: '';
-	background-image: url(../images/angle.svg);
+	background-image: url(../public/assets/images/angle.svg);
 	background-size: cover;
 	position: absolute;
 	pointer-events: none;

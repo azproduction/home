@@ -42,20 +42,6 @@ export default function Document() {
                     media='all'
                     crossOrigin='anonymous'
                 />
-                <link
-                    rel='stylesheet'
-                    href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'
-                    type='text/css'
-                    media='all'
-                    crossOrigin='anonymous'
-                />
-                <link
-                    rel='stylesheet'
-                    href='assets/css/global.css'
-                    type='text/css'
-                    media='all'
-                    crossOrigin='anonymous'
-                />
                 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
                 <link rel='icon' href='/favicon.ico' type='image/x-icon' />
             </Head>
