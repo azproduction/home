@@ -6,7 +6,14 @@ export const Header = () => {
     const [day, setDay] = useState(true);
 
     useIsomorphicLayoutEffect(() => {
-        const mood = localStorage.getItem('ober-mood') === 'day' ? 'day' : 'night';
+        const matchMedia = (() => {
+            if (typeof window !== 'undefined' && typeof window.matchMedia !== 'undefined') {
+                return window.matchMedia('(prefers-color-scheme: dark)');
+            }
+        })();
+
+        const defaultMood = matchMedia?.matches ? 'night' : 'day';
+        const mood = (localStorage.getItem('ober-mood') ?? defaultMood) === 'night' ? 'night' : 'day';
         setDay(mood === 'day');
     }, []);
 
