@@ -2568,6 +2568,9 @@ body.light-skin .header.sticky .navbar.default:before {
 	text-align: center;
 	border-radius: 6px;
 	-webkit-border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-item .title {
