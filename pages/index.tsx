@@ -11,14 +11,16 @@ const Index = () => (
                     <ProfilePicture />
                     <div className='content'>
                         <div className='titles'>
-                            <div className='subtitle'>Staff Frontend Engineer & Tech&nbsp;Leader</div>
+                            <div className='subtitle'>Staff Engineer & Tech&nbsp;Leader</div>
                             <h2 className='title'>Misha Davydov</h2>
                         </div>
                         <div className='description'>
                             <p>
-                                Based in Berlin, I lead advanced frontend and mobile projects, crafting powerful GraphQL
-                                APIs, React, Node.js, and React Native apps with AI integration driving superior digital
-                                experiences.
+                                Based in Berlin, I lead full-stack engineering teams — and the AI agents working
+                                alongside them. Both get the same discipline: clear scope, autonomy with guardrails, and
+                                verifiable signals over trust. The engineering underneath — TypeScript, React and
+                                React&nbsp;Native on the client, Node.js and federated GraphQL on the server — is what
+                                makes the verification real. I mentor engineers to get the same leverage.
                             </p>
                             <div className='social-links'>
                                 <SocialLinks />
@@ -81,8 +83,8 @@ const Index = () => (
                                 </div>
                                 <div className='num'>23</div>
                                 <div className='title'>
-                                    Launched <br />
-                                    Web Apps
+                                    Products <br />
+                                    Shipped
                                 </div>
                             </div>
                             <div className='numbers-item'>
@@ -111,7 +113,7 @@ const Index = () => (
                                         />
                                     </svg>
                                 </div>
-                                <div className='num'>3</div>
+                                <div className='num'>8</div>
                                 <div className='title'>
                                     Teams <br />
                                     Led
@@ -124,34 +126,37 @@ const Index = () => (
                         <div className='profile-box'>
                             <div className='text'>
                                 <p>
-                                    My name is Mikhail Davydov. I am a Staff Frontend Engineer and Tech Leader with
-                                    a&nbsp;passion for creating exceptional user interfaces and developing
-                                    frontend-centric APIs that empower teams. My primary tech stack comprises
-                                    TypeScript, React, React&nbsp;Native, Node.js, and GraphQL.
+                                    My name is Mikhail Davydov. I am a Staff Engineer and Tech&nbsp;Leader working
+                                    across the full product stack — TypeScript, React and React&nbsp;Native on the
+                                    client, Node.js services and federated GraphQL on the server. My current focus is
+                                    compounding team output with AI: designing the environments, verification harnesses,
+                                    and review pipelines that let agents handle more of the keystrokes while engineers
+                                    stay in control of the outcome.
                                 </p>
                                 <p>
-                                    In 2014, I relocated to Germany, marking the beginning of a robust international
-                                    career. Over the years, I have contributed to several high-impact startups, where I
-                                    honed my skills as a full-stack developer and led technical teams as a Tech Lead—an
-                                    experience that has perfectly paved the way for my current role as a Staff Frontend
-                                    Engineer. My drive for continuous progress means that AI and LLM tools are a regular
-                                    part of my daily workflow, accelerating development while my core technical
-                                    expertise remains central to every decision.
+                                    In 2014 I relocated to Germany and have since worked across four product companies
+                                    as a senior, principal, and staff engineer. I am equally comfortable in greenfield
+                                    work — shipping four generations of products at Matterway, or building a crypto
+                                    indexer and a cross-team GraphQL Federation Router in my current role — and in
+                                    brownfield migrations: React web to React&nbsp;Native + Expo, Webpack to Vite, Redux
+                                    to Zustand, each orchestrated with Claude&nbsp;Code under tight test coverage.
                                 </p>
                                 <p>
-                                    I have also earned recognition as a public speaker, delivering over ten
-                                    presentations at prominent international conferences. My commitment to
-                                    knowledge-sharing led me to teach JavaScript and related web technologies for two
-                                    years, mentoring hundreds of aspiring developers. I consistently stay up-to-date
-                                    with modern technology by engaging with a diverse range of industry resources and
-                                    digital platforms.
+                                    Mentorship and knowledge-sharing are central to how I operate. I have mentored 114+
+                                    engineers, taught JavaScript and web technologies for two years at Yandex Interface
+                                    School, and delivered 13 public talks at international conferences. Inside my
+                                    current company I created and run the #ai-workbench channel — shared tips, skills,
+                                    latest AI news, and working patterns reaching almost every developer on staff.
                                 </p>
                                 <p>
-                                    Fun fact: I once spent a year working at a uranium enrichment plant. In my spare
-                                    time, I enjoy exploring analog photography.
+                                    I treat AI agents the way a good manager treats a strong team. I hand them vision,
+                                    data, and tools, then place them in a sandbox they cannot break out of. I judge them
+                                    on verifiable signals — changes survive cross agent reviews, unit and integration
+                                    tests passing, UI interactions work correctly, screens match the design. The
+                                    technical depth stays with the humans. The leverage comes from trusting the signals,
+                                    not the prose.
                                 </p>
                                 <DownloadCv />
-                                <div className='signature'></div>
                             </div>
                         </div>
                     </div>
@@ -170,127 +175,32 @@ const Index = () => (
                         {/* Description */}
                         <div className='text'>
                             <p>
-                                As a Staff Frontend Engineer & Tech Leader, I serve as a pivotal link between various
-                                teams, including backend, design, dev-ops, legal, product, data, HR, and PR. Ensuring
-                                cohesive execution and technical excellence. My core expertise in TypeScript, React,
-                                React&nbsp;Native, Node.js, and GraphQL drives the development of innovative frontend
-                                solutions, while I remain committed to cultivating a collaborative and high-performing
-                                engineering culture.
+                                As a Staff Engineer & Tech&nbsp;Leader I operate as the connective tissue between
+                                backend, design, dev-ops, legal, product, data, HR, and PR — ensuring cohesive execution
+                                and technical excellence. My core stack spans TypeScript, React, React&nbsp;Native,
+                                Node.js, and federated GraphQL, and I author the ADRs that outlive individual features —
+                                federation schema contracts, deprecation policy, sandbox and supply-chain boundaries.
+                                When the right answer spans two codebases, I'm the person the teams call.
                             </p>
                             <p>
-                                I actively contribute to critical architectural and strategic decisions, lead
-                                team-building initiatives, and conduct workshops and mentoring sessions. Beyond internal
-                                collaboration, I represent the company at public speaking engagements, author technical
-                                articles, and teach JavaScript and web technologies in both corporate and academic
-                                settings. As a maintainer of essential frontend libraries, I ensure our components and
-                                coding standards consistently reflect industry best practices.
+                                I contribute to critical architectural decisions, lead team-building and enablement
+                                initiatives, and run workshops, mentoring sessions, and the internal AI workbench that
+                                sets how we delegate to AI agents safely. Beyond internal work, I represent the company
+                                at public speaking engagements, author technical articles, and teach JavaScript and web
+                                technologies in both corporate and academic settings. As a maintainer of shared
+                                libraries, I keep components and coding standards aligned with industry best practices.
                             </p>
                             <p>
-                                Whether launching a project from the ground up or evolving an established codebase, my
-                                goal is to deliver outstanding products that propel the company forward.
+                                Whether launching a project from the ground up or rescuing an established codebase —
+                                With an help of Claude Code I have orchestrated full migrations such as React web to
+                                React&nbsp;Native + Expo, Webpack to Vite, and Redux to Zustand — my goal is to deliver
+                                outstanding products that propel the company forward.
                             </p>
                         </div>
                         {/* Services */}
                         <div className='p-title'>EXPERIENCE</div>
                         <div className='services-items'>
-                            <div className='services-col'>
-                                <div className='services-item'>
-                                    <div className='icon'>
-                                        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 630 630' width='64'>
-                                            <rect width='630' height='630' fill='#f7df1e' />
-                                            <path d='m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z' />
-                                        </svg>
-                                    </div>
-                                    <div className='title'>JavaScript/TypeScript</div>
-                                    <div className='text'>
-                                        <p>
-                                            Expert knowledge in JavaScript and TypeScript. I bring deep expertise in
-                                            contemporary ECMAScript standards, leveraging modern web APIs and TypeScript
-                                            to deliver high-quality, scalable web solutions grounded in object-oriented
-                                            and functional programming paradigms.{' '}
-                                            <i>19+ years of active work experience.</i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='services-col'>
-                                <div className='services-item'>
-                                    <div className='icon'>
-                                        <svg
-                                            width='64'
-                                            viewBox='0 0 256 282'
-                                            xmlns='http://www.w3.org/2000/svg'
-                                            preserveAspectRatio='xMinYMin meet'>
-                                            <g fill='#8CC84B'>
-                                                <path d='M116.504 3.58c6.962-3.985 16.03-4.003 22.986 0 34.995 19.774 70.001 39.517 104.99 59.303 6.581 3.707 10.983 11.031 10.916 18.614v118.968c.049 7.897-4.788 15.396-11.731 19.019-34.88 19.665-69.742 39.354-104.616 59.019-7.106 4.063-16.356 3.75-23.24-.646-10.457-6.062-20.932-12.094-31.39-18.15-2.137-1.274-4.546-2.288-6.055-4.36 1.334-1.798 3.719-2.022 5.657-2.807 4.365-1.388 8.374-3.616 12.384-5.778 1.014-.694 2.252-.428 3.224.193 8.942 5.127 17.805 10.403 26.777 15.481 1.914 1.105 3.852-.362 5.488-1.274 34.228-19.345 68.498-38.617 102.72-57.968 1.268-.61 1.969-1.956 1.866-3.345.024-39.245.006-78.497.012-117.742.145-1.576-.767-3.025-2.192-3.67-34.759-19.575-69.5-39.18-104.253-58.76a3.621 3.621 0 0 0-4.094-.006C91.2 39.257 56.465 58.88 21.712 78.454c-1.42.646-2.373 2.071-2.204 3.653.006 39.245 0 78.497 0 117.748a3.329 3.329 0 0 0 1.89 3.303c9.274 5.259 18.56 10.481 27.84 15.722 5.228 2.814 11.647 4.486 17.407 2.33 5.083-1.823 8.646-7.01 8.549-12.407.048-39.016-.024-78.038.036-117.048-.127-1.732 1.516-3.163 3.2-3 4.456-.03 8.918-.06 13.374.012 1.86-.042 3.14 1.823 2.91 3.568-.018 39.263.048 78.527-.03 117.79.012 10.464-4.287 21.85-13.966 26.97-11.924 6.177-26.662 4.867-38.442-1.056-10.198-5.09-19.93-11.097-29.947-16.55C5.368 215.886.555 208.357.604 200.466V81.497c-.073-7.74 4.504-15.197 11.29-18.85C46.768 42.966 81.636 23.27 116.504 3.58z' />
-                                                <path d='M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z' />
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div className='title'>Node.js</div>
-                                    <div className='text'>
-                                        <p>
-                                            Advanced expertise in Node.js, used to solve business needs by optimizing
-                                            team efficiency and accelerating market delivery. My expertise in V8,
-                                            asynchronous I/O, and design patterns delivers scalable backend solutions,
-                                            leveraging JavaScript unity for streamlined development.{' '}
-                                            <i>10+&nbsp;years of active work experience.</i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='services-col'>
-                                <div className='services-item'>
-                                    <div className='icon'>
-                                        <svg
-                                            xmlns='http://www.w3.org/2000/svg'
-                                            viewBox='-11.5 -10.23174 23 20.46348'
-                                            width='64'>
-                                            <circle cx='0' cy='0' r='2.05' fill='#61dafb' />
-                                            <g stroke='#61dafb' strokeWidth='1' fill='none'>
-                                                <ellipse rx='11' ry='4.2' />
-                                                <ellipse rx='11' ry='4.2' transform='rotate(60)' />
-                                                <ellipse rx='11' ry='4.2' transform='rotate(120)' />
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div className='title'>React</div>
-                                    <div className='text'>
-                                        <p>
-                                            Expert knowledge of React guts, optimisations, component composition,
-                                            maintaining of company-wide components libraries, cross-team component
-                                            sharing via Module Federation. <i>10+ years of active work experience.</i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='services-col'>
-                                <div className='services-item'>
-                                    <div className='icon'>
-                                        <svg
-                                            xmlns='http://www.w3.org/2000/svg'
-                                            viewBox='-11.5 -10.23174 23 20.46348'
-                                            width='64'>
-                                            <circle cx='0' cy='0' r='2.05' fill='#61dafb' />
-                                            <g stroke='#61dafb' strokeWidth='1' fill='none'>
-                                                <ellipse rx='11' ry='4.2' />
-                                                <ellipse rx='11' ry='4.2' transform='rotate(60)' />
-                                                <ellipse rx='11' ry='4.2' transform='rotate(120)' />
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div className='title'>React Native</div>
-                                    <div className='text'>
-                                        <p>
-                                            Advanced expertise in React Native combined with a robust end-to-end
-                                            deployment process that significantly shortens deployment, review, and
-                                            testing cycles—ensuring faster time-to-market without compromising quality.{' '}
-                                            <i>6+ years of active work experience.</i>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='services-col'>
+                            <div className='services-col services-col--wide'>
                                 <div className='services-item'>
                                     <div className='icon'>
                                         <svg viewBox='-5 -5 34 34'>
@@ -313,14 +223,205 @@ const Index = () => (
                                             />
                                         </svg>
                                     </div>
-                                    <div className='title'>AI and LLM</div>
+                                    <div className='title'>AI Agent Management</div>
                                     <div className='text'>
                                         <p>
-                                            Deep integration of AI technologies into various workflows including code
-                                            generation, QA, scripting, project management, and exploratory projects to
-                                            drive innovation, enhance efficiency. I leverage LLM solutions to boost
-                                            performance while ensuring safeguard of intellectual property.{' '}
-                                            <i>3+ Years of collaboration experience.</i>
+                                            I am not a Claude pair programmer — I am an agent manager. My role is to
+                                            enable the agents, protect the environment they run in, and verify their
+                                            results automatically. Several Claude&nbsp;Code instances run in parallel on
+                                            my watch, each in its own sandbox on its own branch; some work through the
+                                            night.
+                                        </p>
+                                        <p>
+                                            Protection is structural: each instance runs in a Docker sandbox with an
+                                            iptables-allowlisted network and a filesystem it cannot read outside its
+                                            task. Tooling is in-house — 8 skills I authored, on-demand rule packs, a
+                                            memory MCP for long-running work, and Chrome, Playwright, and
+                                            iOS&nbsp;Simulator MCPs so tasks can be described in what a user sees rather
+                                            than which functions to call. Verification is automated: cross-agent
+                                            deliverable reviews, unit and integration tests in an isolated container,
+                                            visual diffs, and behaviour reproducible outside the session. Multi-agent
+                                            pipelines produce intermediate results I can check, so I am never reviewing
+                                            a single opaque patch at the end.
+                                        </p>
+                                        <p>
+                                            The outcomes are measurable. Developers ship 2–3× more features, hand off
+                                            shareable bug reproductions to other teams in under half an hour without
+                                            pausing their own work, and let agents close simple bugs or run long
+                                            research and migration tasks overnight. PR volume rises; the
+                                            verifiable-deliverables pipeline and peer AI reviews — driven by our team's
+                                            AI rule framework — hold the quality bar. A couple of minor incidents from
+                                            agent-generated code along the way, none of them sandbox escapes, all caught
+                                            by monitoring, each one folded back as a stronger safeguard. A fair price
+                                            for the productivity gain. <i>3+ years of hands-on experience.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col services-col--wide'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg xmlns='http://www.w3.org/2000/svg' width='48' viewBox='0 0 512 512'>
+                                            <path
+                                                fill='currentColor'
+                                                d='M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Architecture & Tech Leadership</div>
+                                    <div className='text'>
+                                        <p>
+                                            As a tech leader I act as the connective tissue between backend, design,
+                                            dev-ops, legal, product, data, HR, and PR — the person teams call when the
+                                            answer spans two codebases or crosses team boundaries. I author the ADRs
+                                            that outlive individual features: federation schema contracts, deprecation
+                                            policy, AI-governance policy, supply-chain boundaries, query-complexity
+                                            governance.
+                                        </p>
+                                        <p>
+                                            Across senior, principal, and staff roles in Germany I have led 8 teams and
+                                            shipped in both modes — greenfield (four generations of products at
+                                            Matterway; a crypto indexer and cross-team Federation Router in my current
+                                            role) and brownfield, where the hardest call is usually what not to rewrite.
+                                        </p>
+                                        <p>
+                                            I stay hands-on. The ADRs are load-bearing because I still write the code I
+                                            sign off on. <i>19+ years in the industry, 8 teams led.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col services-col--wide'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            height='48'
+                                            width='48'
+                                            viewBox='0 0 28 28'>
+                                            <path
+                                                fill='currentColor'
+                                                d='m4 16 11 .001a2 2 0 0 1 1.995 1.85l.005.15V20.5c-.001 4.2-4.287 5.5-7.5 5.5-3.149 0-7.329-1.249-7.495-5.251L2 20.5V18c0-1.054.816-1.918 1.85-1.995L4 16Zm13.22.001L24 16c1.054 0 1.918.816 1.995 1.85L26 18v2c-.001 3.759-3.43 5-6 5-1.058 0-2.259-.215-3.309-.725.752-.894 1.24-2.032 1.302-3.464L18 20.5v-2.499c0-.702-.249-1.34-.654-1.85L17.22 16 24 16l-6.78.001ZM9.5 3a5.5 5.5 0 1 1-.001 11.001A5.5 5.5 0 0 1 9.5 3Zm11 2a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Z'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Mentorship & Enablement</div>
+                                    <div className='text'>
+                                        <p>
+                                            Mentorship and knowledge-sharing are central to how I operate, not a side
+                                            activity. I have mentored 114+ engineers across my teams, taught JavaScript
+                                            and web technologies for two years at Yandex Interface School, and delivered
+                                            13 public talks at international conferences.
+                                        </p>
+                                        <p>
+                                            Inside my current company I created and run the #ai-workbench channel —
+                                            shared skills, rule packs, review patterns, and latest AI news — reaching
+                                            almost every developer on staff. I also maintain shared component libraries
+                                            and coding standards as the teaching artifacts people actually use day to
+                                            day, rather than as policy documents nobody reads.
+                                        </p>
+                                        <p>
+                                            My bias is simple: short feedback loops, show rather than tell, and invest
+                                            in engineers who will outgrow me. Good mentorship is measured by what your
+                                            mentees ship after you stop reviewing.{' '}
+                                            <i>114+ engineers mentored, 13 public talks.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 630 630' width='64'>
+                                            <rect width='630' height='630' fill='#f7df1e' />
+                                            <path d='m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z' />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>JavaScript/TypeScript</div>
+                                    <div className='text'>
+                                        <p>
+                                            Expert across modern ECMAScript and TypeScript — language internals,
+                                            type-system design, and large-scale refactors and framework migrations.
+                                            Equally at home in object-oriented and functional paradigms, on the client
+                                            and on the server. <i>19+ years of active work experience.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            viewBox='-11.5 -10.23174 23 20.46348'
+                                            width='64'>
+                                            <circle cx='0' cy='0' r='2.05' fill='#61dafb' />
+                                            <g stroke='#61dafb' strokeWidth='1' fill='none'>
+                                                <ellipse rx='11' ry='4.2' />
+                                                <ellipse rx='11' ry='4.2' transform='rotate(60)' />
+                                                <ellipse rx='11' ry='4.2' transform='rotate(120)' />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div className='title'>React</div>
+                                    <div className='text'>
+                                        <p>
+                                            Expert on React internals, rendering and perf, and component composition.
+                                            Maintain company-wide component libraries and run cross-team component
+                                            sharing via Module Federation — the kind of infrastructure that keeps dozens
+                                            of developers unblocked. <i>10+ years of active work experience.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            viewBox='-11.5 -10.23174 23 20.46348'
+                                            width='64'>
+                                            <circle cx='0' cy='0' r='2.05' fill='#61dafb' />
+                                            <g stroke='#61dafb' strokeWidth='1' fill='none'>
+                                                <ellipse rx='11' ry='4.2' />
+                                                <ellipse rx='11' ry='4.2' transform='rotate(60)' />
+                                                <ellipse rx='11' ry='4.2' transform='rotate(120)' />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div className='title'>React Native</div>
+                                    <div className='text'>
+                                        <p>
+                                            Advanced expertise in React&nbsp;Native and Expo. Led a React-web-to-React
+                                            Native migration ground-up — design system, CI/CD, over-the-air delivery —
+                                            compressing deployment, review, and testing cycles without sacrificing
+                                            quality. <i>6+ years of active work experience.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg
+                                            width='64'
+                                            viewBox='0 0 256 282'
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            preserveAspectRatio='xMinYMin meet'>
+                                            <g fill='#8CC84B'>
+                                                <path d='M116.504 3.58c6.962-3.985 16.03-4.003 22.986 0 34.995 19.774 70.001 39.517 104.99 59.303 6.581 3.707 10.983 11.031 10.916 18.614v118.968c.049 7.897-4.788 15.396-11.731 19.019-34.88 19.665-69.742 39.354-104.616 59.019-7.106 4.063-16.356 3.75-23.24-.646-10.457-6.062-20.932-12.094-31.39-18.15-2.137-1.274-4.546-2.288-6.055-4.36 1.334-1.798 3.719-2.022 5.657-2.807 4.365-1.388 8.374-3.616 12.384-5.778 1.014-.694 2.252-.428 3.224.193 8.942 5.127 17.805 10.403 26.777 15.481 1.914 1.105 3.852-.362 5.488-1.274 34.228-19.345 68.498-38.617 102.72-57.968 1.268-.61 1.969-1.956 1.866-3.345.024-39.245.006-78.497.012-117.742.145-1.576-.767-3.025-2.192-3.67-34.759-19.575-69.5-39.18-104.253-58.76a3.621 3.621 0 0 0-4.094-.006C91.2 39.257 56.465 58.88 21.712 78.454c-1.42.646-2.373 2.071-2.204 3.653.006 39.245 0 78.497 0 117.748a3.329 3.329 0 0 0 1.89 3.303c9.274 5.259 18.56 10.481 27.84 15.722 5.228 2.814 11.647 4.486 17.407 2.33 5.083-1.823 8.646-7.01 8.549-12.407.048-39.016-.024-78.038.036-117.048-.127-1.732 1.516-3.163 3.2-3 4.456-.03 8.918-.06 13.374.012 1.86-.042 3.14 1.823 2.91 3.568-.018 39.263.048 78.527-.03 117.79.012 10.464-4.287 21.85-13.966 26.97-11.924 6.177-26.662 4.867-38.442-1.056-10.198-5.09-19.93-11.097-29.947-16.55C5.368 215.886.555 208.357.604 200.466V81.497c-.073-7.74 4.504-15.197 11.29-18.85C46.768 42.966 81.636 23.27 116.504 3.58z' />
+                                                <path d='M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z' />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Node.js & Backend</div>
+                                    <div className='text'>
+                                        <p>
+                                            I own backend services end-to-end: BFFs with server-to-server APIs, a crypto
+                                            chain indexer, image upload and resize pipelines, and a cross-team GraphQL
+                                            Federation Router. Temporal for durable workflows, Helm and Terraform for
+                                            the infra, Prometheus, Grafana, Datadog, and Jaeger for observability.{' '}
+                                            <i>10+&nbsp;years of active work experience.</i>
                                         </p>
                                     </div>
                                 </div>
@@ -361,14 +462,80 @@ const Index = () => (
                                             />
                                         </svg>
                                     </div>
-                                    <div className='title'>GraphQL</div>
+                                    <div className='title'>GraphQL & Federation</div>
                                     <div className='text'>
                                         <p>
-                                            Expert knowledge of client-centric services based on GraphQL and Federation
-                                            and extensive experience with the Apollo/Cosmo toolchain. Authored multiple
-                                            Architectural Decision Records (ADRs) to boost efficiency, enhance
-                                            standards, and streamline processes.{' '}
-                                            <i>6+ Years of integration experience in multiple companies.</i>
+                                            Expert in client-centric services with GraphQL and Federation across the
+                                            Apollo and Cosmo toolchains. Most recent work: designed and shipped a
+                                            federated schema spanning 4 services across 4 teams as the cross-team
+                                            contract layer. Authored ADRs covering schema ownership, deprecation policy,
+                                            and query-complexity governance.{' '}
+                                            <i>6+ years of integration experience across multiple companies.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg xmlns='http://www.w3.org/2000/svg' width='48' viewBox='0 0 448 512'>
+                                            <path
+                                                fill='currentColor'
+                                                d='M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Databases & Storage</div>
+                                    <div className='text'>
+                                        <p>
+                                            Comfortable across Postgres, MongoDB, Redis, ClickHouse, SQLite, and object
+                                            storage on S3 and R2. Work the full lifecycle — schema design, index tuning,
+                                            query optimization, and migrations under live load — with an eye for when
+                                            the right answer is a different data model rather than a bigger index.{' '}
+                                            <i>10+ years of active work experience.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg xmlns='http://www.w3.org/2000/svg' width='48' viewBox='0 0 512 512'>
+                                            <path
+                                                fill='currentColor'
+                                                d='M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Security & Supply Chain</div>
+                                    <div className='text'>
+                                        <p>
+                                            Authored the company-wide npm supply-chain policy: private Nexus + Snyk with
+                                            alerting + CI validation + Renovate with a min-release-age of 7 days. AI
+                                            agents behind a Docker sandbox. Operate comfortably under SOC2, GDPR, and
+                                            PCI constraints.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='services-col'>
+                                <div className='services-item'>
+                                    <div className='icon'>
+                                        <svg xmlns='http://www.w3.org/2000/svg' width='48' viewBox='0 0 512 512'>
+                                            <path
+                                                fill='currentColor'
+                                                d='M105.1 202.6c7.7-21.8 20.2-42.3 37.8-59.8c62.5-62.5 163.8-62.5 226.3 0L386.3 160H352c-17.7 0-32 14.3-32 32s14.3 32 32 32H463.5c0 0 0 0 0 0h.4c17.7 0 32-14.3 32-32V80c0-17.7-14.3-32-32-32s-32 14.3-32 32v35.2L414.4 97.6c-87.5-87.5-229.3-87.5-316.8 0C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5zM39 289.3c-5 1.5-9.8 4.2-13.7 8.2c-4 4-6.7 8.8-8.1 14c-.3 1.2-.6 2.5-.8 3.8c-.3 1.7-.4 3.4-.4 5.1V432c0 17.7 14.3 32 32 32s32-14.3 32-32V396.9l17.6 17.5 0 0c87.5 87.4 229.3 87.4 316.7 0c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.5 62.5-163.8 62.5-226.3 0l-.1-.1L125.6 352H160c17.7 0 32-14.3 32-32s-14.3-32-32-32H48.4c-1.6 0-3.2 .1-4.8 .3s-3.1 .5-4.6 1z'
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div className='title'>Platform Migrations</div>
+                                    <div className='text'>
+                                        <p>
+                                            Brownfield specialist. I know when not to rewrite. When rewriting is the
+                                            right call, I orchestrate migrations with Claude&nbsp;Code as a force
+                                            multiplier: React web to React&nbsp;Native + Expo (greenfield the client,
+                                            port the logic), Webpack to Vite, Redux to Zustand. Each rewrite ships under
+                                            tight test coverage.
                                         </p>
                                     </div>
                                 </div>
@@ -377,21 +544,20 @@ const Index = () => (
                         <div className='services-item'>
                             <div className='title'>I work every day with</div>
                             <div>
-                                React, React Native, React Routing, Webpack, Nodejs, GraphQL, Apollo, Jest, Typescript,
-                                Git, Webstorm, Npm and various LLM Coding Assistants and of course wonderful people.
+                                TypeScript, React, React&nbsp;Native, Expo, Node.js, GraphQL with Apollo and Cosmo
+                                Federation, Vite, Vitest, Claude&nbsp;Code with in-house skills and rule packs, Chrome,
+                                Playwright, and iOS&nbsp;Simulator MCPs, Git, Docker, and wonderful people.
                             </div>
                         </div>
                         <div className='services-item'>
                             <div className='title'>I can tune well</div>
                             <div>
-                                Jira, Linear, Redux, React Native, Jest, Storybook, RxJS, Ramda, Eslint, Prettier, Helm,
-                                Docker, Kubernetes, AWS, MongoDB, IndexedDB, GitlabCI, Jenkins, Puppeteer, Playwrite,
-                                Detox, Various AI Coding Toos.
+                                Postgres, MongoDB, Redis, ClickHouse, SQLite, S3, R2, Temporal, Helm, Terraform,
+                                Kubernetes, AWS (including Secrets Manager), Prometheus, Grafana, Datadog, Jaeger, Snyk
+                                and Renovate behind a private Nexus, Storybook, Detox, Puppeteer, Playwright, Jenkins,
+                                GitLab&nbsp;CI, Redux, Zustand, RxJS, Ramda, ESLint, Prettier, Jira, Linear, and a
+                                growing catalogue of AI coding tools.
                             </div>
-                        </div>
-                        <div className='services-item'>
-                            <div className='title'>Willing to learn</div>
-                            <div>Rust, Golang, Kotlin</div>
                         </div>
                         <div className='skills-items'>
                             <div className='p-title'>LANGUAGES</div>
@@ -469,27 +635,40 @@ const Index = () => (
                             <div className='history-items'>
                                 <div className='p-title'>WORK</div>
                                 <div className='history-item'>
-                                    <div className='date'>Mar 2024 - Present</div>
-                                    <div className='name'>Food Tech Start-Up</div>
-                                    <div className='subname'>Staff Frontend Engineer, Tech&nbsp;Leader</div>
+                                    <div className='date'>April 2025 - Present</div>
+                                    <div className='name'>Crypto Start-Up</div>
+                                    <div className='subname'>
+                                        Staff Engineer, Tech&nbsp;Leader · company undisclosed for personal security
+                                    </div>
                                     <div className='text'>
                                         <p>
-                                            Led a team of 5 to design and deploy a high-performance React Native mobile
-                                            application. Managed the full development cycle—from production to
-                                            deployment—while driving the company-wide GraphQL initiative. Tech: React
-                                            Native, TypeScript, GraphQL, Node.js
+                                            Lead a team of 5 on a React&nbsp;Native mobile application within a
+                                            25-engineer organization (4 teams), working toward the initial product
+                                            release. Designed and shipped a federated GraphQL schema spanning 4 services
+                                            as the cross-team contract layer. Maintain the GraphQL/BFF layer and a chain
+                                            indexer, and author the company-wide AI agent development playbook —
+                                            Docker-sandboxed Claude&nbsp;Code, in-house skills and rule packs,
+                                            test-gated delegation, and the #ai-workbench channel. Extended the ADR stack
+                                            with AI-governance and npm supply-chain ADRs. Tech: React&nbsp;Native,
+                                            TypeScript, GraphQL Federation, Node.js, Temporal, Postgres.
                                         </p>
                                     </div>
                                 </div>
                                 <div className='history-item'>
-                                    <div className='date'>Feb 2021 - Mar 2024</div>
-                                    <div className='name'>ARRIVAL Germany</div>
-                                    <div className='subname'>Principal Frontend Engineer</div>
+                                    <div className='date'>Mar 2024 - April 2025</div>
+                                    <div className='name'>Food Tech Start-Up</div>
+                                    <div className='subname'>
+                                        Staff Frontend Engineer, Tech&nbsp;Leader · company undisclosed due to NDA
+                                    </div>
                                     <div className='text'>
                                         <p>
-                                            Architecture and development of projects for ARRIVAL factories,
-                                            robofacturing design and internal programming language. Maintenence of
-                                            internal design system library. Tech: TypeScript, Node.js, React.js, GraphQL
+                                            Led a team of 5 within a 20-engineer organization (4 teams) to design and
+                                            deploy a high-performance React&nbsp;Native mobile application. Managed the
+                                            full development cycle — from production to deployment — while driving the
+                                            company-wide GraphQL initiative. Wrote ADRs about federation schema, scoped
+                                            GraphQL queries, deprecation policy, schema isolation, and many others. The
+                                            product did not exit its trial phase following a significant shift in the US
+                                            market. Tech: React&nbsp;Native, TypeScript, GraphQL, Node.js.
                                         </p>
                                     </div>
                                 </div>
@@ -498,6 +677,21 @@ const Index = () => (
                         <div className='history-right'>
                             <div className='history-items history-items__no-title'>
                                 <div className='history-item'>
+                                    <div className='date'>Feb 2021 - Mar 2024</div>
+                                    <div className='name'>ARRIVAL Germany</div>
+                                    <div className='subname'>
+                                        Principal Frontend Engineer. Promoted from Senior Frontend Engineer
+                                    </div>
+                                    <div className='text'>
+                                        <p>
+                                            Architecture and development of projects for ARRIVAL factories,
+                                            robofacturing design and DSL. Authored multiple ADRs with impact on all
+                                            engineering teams. Development of internal design system library. Tech:
+                                            TypeScript, Node.js, React.js, GraphQL
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='history-item'>
                                     <div className='date'>Feb 2015 - Feb 2021</div>
                                     <div className='name'>Matterway</div>
                                     <div className='subname'>Senior JavaScript Developer, Tech Leader</div>
@@ -505,7 +699,8 @@ const Index = () => (
                                         <p>
                                             Architecture and development of 4 generations of company products. Studio –
                                             visual IDE. Assistant – mobile automation runner. Marketplace – space for
-                                            assistant automation skills. Tech: TypeScript, Node.js, React.js, GraphQL
+                                            assistant automation skills. Tech: TypeScript, React Native, Node.js,
+                                            React.js, GraphQL
                                         </p>
                                     </div>
                                 </div>
