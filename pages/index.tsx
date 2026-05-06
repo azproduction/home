@@ -233,10 +233,10 @@ const Index = () => (
                                             night.
                                         </p>
                                         <p>
-                                            Protection is structural: each instance runs in a Docker sandbox with an
-                                            iptables-allowlisted network and a filesystem it cannot read outside its
-                                            task. Tooling is in-house — 8 skills I authored, on-demand rule packs, a
-                                            memory MCP for long-running work, and Chrome, Playwright, and
+                                            Protection is structural: each instance runs in a isolated execution
+                                            environment with an firewalled network and a filesystem it cannot read
+                                            outside its task. Tooling is in-house — 8 skills I authored, on-demand rule
+                                            packs, a memory MCP for long-running work, and Chrome, Playwright, and
                                             iOS&nbsp;Simulator MCPs so tasks can be described in what a user sees rather
                                             than which functions to call. Verification is automated: cross-agent
                                             deliverable reviews, unit and integration tests in an isolated container,
@@ -512,8 +512,8 @@ const Index = () => (
                                         <p>
                                             Authored the company-wide npm supply-chain policy: private Nexus + Snyk with
                                             alerting + CI validation + Renovate with a min-release-age of 7 days. AI
-                                            agents behind a Docker sandbox. Operate comfortably under SOC2, GDPR, and
-                                            PCI constraints.
+                                            agents behind a containerized runtime. Operate comfortably under SOC2, GDPR,
+                                            and PCI constraints.
                                         </p>
                                     </div>
                                 </div>
@@ -546,7 +546,7 @@ const Index = () => (
                             <div>
                                 TypeScript, React, React&nbsp;Native, Expo, Node.js, GraphQL with Apollo and Cosmo
                                 Federation, Vite, Vitest, Claude&nbsp;Code with in-house skills and rule packs, Chrome,
-                                Playwright, and iOS&nbsp;Simulator MCPs, Git, Docker, and wonderful people.
+                                Playwright, and iOS&nbsp;Simulator MCPs, Git, K8s, and wonderful people.
                             </div>
                         </div>
                         <div className='services-item'>
@@ -647,9 +647,9 @@ const Index = () => (
                                             release. Designed and shipped a federated GraphQL schema spanning 4 services
                                             as the cross-team contract layer. Maintain the GraphQL/BFF layer and a chain
                                             indexer, and author the company-wide AI agent development playbook —
-                                            Docker-sandboxed Claude&nbsp;Code, in-house skills and rule packs,
-                                            test-gated delegation, and the #ai-workbench channel. Extended the ADR stack
-                                            with AI-governance and npm supply-chain ADRs. Tech: React&nbsp;Native,
+                                            containerized Claude&nbsp;Code, in-house skills and rule packs, test-gated
+                                            delegation, and the #ai-workbench channel. Extended the ADR stack with
+                                            AI-governance and npm supply-chain ADRs. Tech: React&nbsp;Native,
                                             TypeScript, GraphQL Federation, Node.js, Temporal, Postgres.
                                         </p>
                                     </div>
